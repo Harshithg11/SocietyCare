@@ -1,0 +1,29 @@
+# Build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config - NEVER commit these
+.env
+*.env
+application-local.yml
+application-secrets.yml
+
+# Logs
+*.log
+logs/
+/src/main/resources/application.yml
+/src/test/resources/application-test.yml
